@@ -39,4 +39,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a command only for PR
         if: ${{ github.event_name == 'pull_request' }}
-        run: echo Hello, for the PR!
+        run: echo Hello, for the PR!!
