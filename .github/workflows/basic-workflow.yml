@@ -42,7 +42,7 @@ jobs:
         run: echo Hello, for the PR!!
 
   deployment:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
     needs: [build]
     environment: DEV
     steps:
